@@ -1,6 +1,6 @@
 
  //Definition for singly-linked list.
-  public class ListNode {
+ class ListNode {
      int val;
      ListNode next;
 
@@ -34,7 +34,7 @@
 //             l2.next=new ListNode(9,null);
 //             l2=l2.next;
 //         }
-         Solution s=new Solution();
+         Solution2 s=new Solution2();
          ListNode a = s.addTwoNumbers(head1, head2);
          while (a != null) {
              System.out.println(a.val);
@@ -42,8 +42,8 @@
          }
      }
  }
- class Solution {
-     public Solution() {
+ class Solution2 {
+     public Solution2() {
      }
 
      public ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
