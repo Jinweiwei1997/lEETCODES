@@ -1,5 +1,5 @@
 
-class Solution {
+class Solution3 {
     public int lengthOfLongestSubstring(String s) {
         int maxl = 0;int temp=0;int start=0,repeat = 0;
         StringBuffer strin = new StringBuffer();
@@ -25,9 +25,9 @@ class Solution {
     }
     }
 
-public class NoReapeatedWords {
+ class NoReapeatedWords {
     public static void main(String[] args) {
-    Solution solution= new Solution();
+    Solution3 solution= new Solution3();
     int a=solution.lengthOfLongestSubstring("pwkeww");
     System.out.println(a);
     }
