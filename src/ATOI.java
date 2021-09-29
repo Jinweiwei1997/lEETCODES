@@ -1,11 +1,11 @@
 public class ATOI {
     public static void main(String[] args) {
-        Solution solution=new Solution();
+        Solution8 solution=new Solution8();
         int a=solution.myAtoi("4847483646");
         System.out.println(a);
     }
 }
-class Solution {
+class Solution8 {
     public int myAtoi(String s) {
         int x=0;int flat=1;
         StringBuffer stringBuffer=new StringBuffer();
