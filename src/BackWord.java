@@ -1,23 +1,23 @@
 import java.util.Stack;
 
 /**
- * 
+ *
  */
 public class backWord {
-    public static  void main(){
-        Solution solution=new Solution();
-        boolean x=solution.isPalindrome(121);
+    public static  void main(String args[]){
+        Solution9 solution=new Solution9();
+        boolean x=solution.isPalindrome(-121);
         System.out.println(x);
     }
 }
 
-class Solution {
+class Solution9 {
     public boolean isPalindrome(int x) {
         Stack<Integer>stack =new Stack<Integer>();
         boolean flat=true;
         try {
             if (x < 0)
-                x = -x;
+                return false;
         }catch (Exception e) {return  false;}
         String st=String.valueOf(x);
         int len=st.length();
