@@ -1,19 +1,19 @@
 
  //Definition for singly-linked list.
- class ListNode {
+ class ListNode1 {
      int val;
      ListNode next;
 
 
-     ListNode() {
+     ListNode1() {
 
      }
 
-     ListNode(int val) {
+     ListNode1(int val) {
          this.val = val;
      }
 
-     ListNode(int val, ListNode next) {
+     ListNode1(int val, ListNode next) {
          this.val = val;
          this.next = next;
      }
